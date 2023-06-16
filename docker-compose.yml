@@ -1,0 +1,35 @@
+version: "3"
+services:
+    price-calculator-local:
+        image: postgres
+        restart: always
+        container_name: price-calculator-local
+        environment:
+            POSTGRES_USER: "postgres"
+            POSTGRES_DB: "price-calculator"
+            POSTGRES_PASSWORD: "123456"
+        ports:
+            - 15432:5432
+    price-calculator-api:
+        image: price_calculator_api
+        container_name: price-calculator-api
+        build:
+            context: .
+            dockerfile: src/Route256.Week5.Homework.PriceCalculator.Api/Dockerfile
+        ports:
+            - 5001:80
+        depends_on:
+            -   price-calculator-local
+        links:
+            -   price-calculator-local
+    frontend-api:
+        image: frontend_api
+        container_name: frontend-api
+        build:
+            dockerfile: front/form/Dockerfile
+        ports:
+            -   3000:3000
+        depends_on:
+            -   price-calculator-api
+        links:
+            -   price-calculator-api

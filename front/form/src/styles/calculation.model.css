@@ -1,0 +1,22 @@
+.calculation_model {
+    border: 5px solid #8B10C5;
+    width: 22vw;
+    height: 11vw;
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;
+    flex-direction: column;
+}
+
+.calculation_model_font_style, .calculation_model_font_style_bold {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1vw;
+    color: #000000;
+}
+
+.calculation_model_font_style_bold {
+    font-weight: 700;
+}

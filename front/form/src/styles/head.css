@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background: #F3F3F3;
+}
+
+.headDiv {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    background: #8B10C5;
+}
+
+.title, .signature {
+    align-items: center;
+    text-align: center;
+
+    color: #F0EBEB;
+}
+
+.title {
+    margin-left: 140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    
+}
+
+.signature {
+    margin-right: 120px;
+    margin-top: 60px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+
+.bodyDiv {
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    column-count: 2;
+}
+
+.form_title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+
+    color: #000000;
+}
+
+.components_title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+
+    color: #000000;
+}
+
+.form1 {
+    margin-left: 13%;
+    margin-top: 9%;
+    width: 32%;
+    margin-bottom: 5%;
+}
+
+.form2 {
+    margin-right: 13%;
+    margin-top: 9%;
+    width: 32%;
+}
+
+.elements_container {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+
+.components_head_form1 {
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+.components_body_form1 {
+    margin-top: 7%;
+}
+
+.goods_body_form1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+
+    color: #000000;
+}
+
+.edit, .edit_for_price {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    margin-top: 2%;
+    width: 8.3vw;
+    height: 2.2vw;
+    color: #000000;
+    border-color: #5F5D5D;
+    text-align: center;
+}
+
+.edit_for_price {
+    width: 18vw;
+    margin-top: 0;
+    margin-bottom: 8%;
+}
+
+.components_elements_form1 {
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.component_left_form1 {
+    margin-top: 7%;
+    margin-left: 14%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.component_right_form1 {
+    margin-top: 7%;
+    margin-right: 14%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.component_center_form1 {
+    margin-top: 4%;
+    justify-content: center;
+    display: flex;
+}
+
+
+.button_add_form1 {
+    background-color: #8B10C5;
+    color: white;
+    border-radius: 7px;
+    width: 9.5vw;
+    height: 2.5vw;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-top: 12%;
+}
+
+.button_delivery_form1 {
+    background-color: #8B10C5;
+    color: white;
+    border-radius: 7px;
+    width: 16vw;
+    height: 2.7vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.component_form2 {
+    margin-top: 7%;
+    margin-left: 7%;   
+}
+
+.component_center_form2 {
+    margin-top: 4%;
+    justify-content: center;
+    display: flex;
+}
+
+.component_center_elements {
+    margin-top: 4%;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.button_get_history, .button_clear {
+    background-color: #8B10C5;
+    color: white;
+    border-radius: 7px;
+    width: 16vw;
+    height: 2.7vw;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 3%;
+}
+
+.button_clear {
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
